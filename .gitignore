@@ -1,0 +1,9 @@
+*.blend1
+*.wrl
+debug.txt
+ref
+/wip
+/release
+*.kra~
+gamestate.txt
+err.obj
