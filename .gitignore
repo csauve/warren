@@ -1,6 +1,7 @@
 *.blend1
 *.wrl
 debug.txt
+*.tif~
 ref
 /wip
 /release
