@@ -27,6 +27,6 @@ def sync(pattern):
             print("Copying to local: " + f)
             do_copy(path.join(hek_root, f), path.join(dev_root, f))
 
-sync("data/levels/warren/**/**.tif")
+sync("data/levels/warren/**/warren_*.tif")
 sync("data/levels/warren/**/**.JMS")
 sync("tags/levels/warren/**/**.*")
