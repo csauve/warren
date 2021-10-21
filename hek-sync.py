@@ -30,3 +30,4 @@ def sync(pattern):
 sync("data/levels/warren/**/warren_*.tif")
 sync("data/levels/warren/**/**.JMS")
 sync("tags/levels/warren/**/**.*")
+sync("maps/warren.map")
