@@ -6,6 +6,8 @@ Warren is a Halo Custom Edition map originally created for the [Halo Modding Rec
 
 Warren is based on [contest layout #3][blaze] designed by Blaze Lightcap. Compared to the `warren_beta.map` released for the contest, this final version has received a few minor layout changes, lightmap fixes, and improved netgame flag/equipment placements. The map plays best with 8-12 players and supports all gametypes.
 
+Thanks to the Refined project contributors, Jesse for the high res HUD, and General_101 for the JMS exporter!
+
 ## Building the map
 The [Halo Editing Kit (HEK)][hek] is required to build this map. In order to compile Warren from tags, its tagset must first be assembled. Paste the following tagsets into the HEK's `tags` folder, replacing files as needed, in the order shown:
 
@@ -42,6 +44,9 @@ The map's BSP was made in [Blender][blender] and exported to JMS using [General_
   * **playerclip**: Contains player-only collision surfaces meant to stop players from going out of bounds
   * **portals**: Geometry which divides the map into clusters for rendering, sound, and weather purposes
   * **weatherpoly**: Contains weather polyhedra for masking cluster weather particles under overhangs and indoors
+
+## License
+This map and its sources are shared under CC BY-NC 4.0. Feel free to remix or redistribute for any purpose as long as there's attribution and your derivatives are non-commercial.
 
 [hek]: http://hce.halomaps.org/hek/
 [krita]: https://krita.org/en
